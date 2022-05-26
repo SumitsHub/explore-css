@@ -1,8 +1,12 @@
+import LoadingCounter from "./components/LoadingCounter/LoadingCounter";
+import './App.scss';
 
 function App() {
   return (
-    <div>
-      Welcome to the store!
+    <div className="app">
+      <h2>Welcome to the store!</h2>
+      <hr/>
+      <LoadingCounter />
     </div>
   );
 }
